@@ -1,12 +1,162 @@
-<!-- index.html の例 -->
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-  <meta charset="UTF-8">
-  <title>My GitHub Pages</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>山田 太郎 (Taro Yamada)</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			line-height: 1.6;
+			background: #f9f9f9;
+			color: #000;
+		}
+
+		header {
+			text-align: center;
+			padding: 2rem 0;
+			background: #fff;
+		}
+
+		header h1 {
+			margin: 0;
+			font-size: 2.5rem;
+			color: #000;
+		}
+
+		.container {
+			width: 70%; /* 横幅を広げるために幅を90%に設定 */
+			max-width: none; /* 制限を解除 */
+			margin: 2rem auto;
+			padding: 0 1rem;
+			background: #fff;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+
+		section {
+			margin-bottom: 2rem;
+		}
+
+		h2,
+		h3 {
+			color: #000;
+		}
+
+		h2 {
+			border-bottom: 2px solid #004080;
+			padding-bottom: 0.5rem;
+		}
+
+		a {
+			color: #004080;
+			text-decoration: none;
+		}
+
+		.section-header {
+			margin-top: 0;
+		}
+	</style>
 </head>
+
 <body>
-  <h1>ようこそ、私のサイトへ！</h1>
-  <p>ここは GitHub Pages で公開しているサイトです。</p>
+	<header>
+		<h1>白矢 琢朗 (Takuro Shiraya)</h1>
+	</header>
+
+	<div class="container">
+		<section id="about">
+			<br><br>
+			<p><font size = "5">白矢　琢朗</font></p>
+			<p>大阪大学大学院 情報学研究科　マルチメディア工学専攻　<br>暗号基盤講座　五十部研究室　博士後期課程1年</a></p>
+			<p>連絡先: takurou.shiraya727[at]gmail[dot]com</a></p>
+		</section>
+
+		<section id="news">
+			<h2 class="section-header">ニュース</h2>
+			<ul>
+				<li>2024年6月　論文が国際学会IWSEC 2024に採録されました。
+					<ul>
+						<li>Takuro Shiraya, Kosei Sakamoto and Takanori Isobe, "Bit-wise Analysis for Forgery Attacks on AES-based AEAD Schemes"</li>
+					</ul>
+				</li>
+
+			</ul>
+		</section>
+
+		<section id="education">
+			<h2 class="section-header">学歴</h2>
+			<ul>
+				<li>2025年3月  兵庫県立大学大学院 情報学研究科 データ計算科学専攻　博士後期課程　退学</li>
+				<li>2024年3月  兵庫県立大学大学院 情報学研究科 データ計算科学専攻　博士前期課程　修了</li>
+					<ul>
+						<li>修士論文 : ソフトウェア上で高速に実行可能な認証暗号に対する安全性評価 (指導教員 : 五十部 孝典 教授)</li>
+					</ul>
+				<li>2022年3月  兵庫県立大学 工学部 電気電子情報工学科　卒業</li>
+			</ul>
+		</section>
+
+		<section id="achievements">
+			<h2 class="section-header">成果</h2>
+			<h3>学術論文</h3>
+			<ol>
+				<li>Nobuyuki Takeuchi, Kosei Sakamoto, <b>Takuro Shiraya</b>, and Takanori Isobe. Improving the security bounds against
+				differential attacks for pholkos family. IEICE Trans. Fundam. Electron. Commun. Comput. Sci., 107(8):1196–1204, 2024.</li>
+				<li><b>Takuro Shiraya</b>, Nobuyuki Takeuchi, Kosei Sakamoto and Takanori Isobe. MILP-based Security Evaluation for
+				AEGIS/Tiaoxin-346/Rocca. IET Information Security., 17(3):458–467, 2023.</li>
+			</ol>
+			<h3>国際会議</h3>
+			<ol>
+				<li>Atsushi Tanaka, Rentaro Shiba, Kosei Sakamoto, Mostafizar Rahman, <b>Takuro Shiraya</b>, and Takanori Isobe. ASURA: an
+				efficient large-state tweakable block cipher for ARM environment. Progress in Cryptology - INDOCRYPT 2024 - 25th
+				International Conference on Cryptology in India, Chennai, India, December 18-21, 2024.</li>
+				<li><b>Takuro Shiraya</b>, Kosei Sakamoto, and Takanori Isobe. Bit-wise analysis for forgery attacks on aes-based AEAD schemes.
+				Advances in Information and Computer Security - 19th International Workshop on Security, IWSEC 2024, Kyoto, Japan,
+				September 17-19, 2024.</li>
+			</ol>
+			<h3>国内会議</h3>
+			<ol>
+				<li>名古屋太一, 田中篤, <b>白矢琢朗</b>, 石川達也, 五十部孝典. AESベースのラウンド関数の改良とその評価. 暗号と情報セキュリティシンポジウム(SCIS2025), 福岡, 2025年1月.</li>
+				<li><b>白矢琢朗</b>, 阪本光星, 五十部孝典. AEGIS familyに対するSATを用いた差分解析. 情報セキュリティ研究会(ISEC), 北海道, 2023年7月.</li>
+				<li><b>白矢琢朗</b>, 竹内信幸, 阪本光星, 五十部孝典. 混合整数線形計画法を用いたAEGIS/Tiaoxin-346/Roccaに対する安全性評価. コンピュータセキュリティシンポジウム2022(CSS2022), 2A3-Ⅱ-1, 熊本,
+				2022年10月.</li>
+			</ol>
+			<h3>奨学金</h3>
+			<ol>
+				<li>
+					SCAT研究奨励金(令和6年度~令和8年度)
+					<ul>
+						<li>
+							次世代移動通信システムに向けたリアルタイム暗号技術
+						</li>
+					</ul>
+				</li>
+				<li>日本学生支援機構 第一種奨学金返還免除(半額免除), 修士課程終了時2024年3月.</li>
+			</ol>
+			<h3>その他</h3>
+			<ol>
+				<li>第2回異分野融合若手研究者の会(主催：甲南大学フロンティアサイエンス研究科)　口頭発表, 2024年9月28日.
+					<ul>
+						<li>
+							認証暗号についてForgery攻撃に対する安全性評価
+						</li>
+					</ul>
+				</li>
+				<li>第1回異分野融合若手研究者の会(主催：甲南大学フロンティアサイエンス研究科)　口頭発表, 2023年9月30日.
+					<ul>
+						<li>
+							AEGIS familyに対するSATを用いた差分解析
+						</li>
+					</ul>
+				</li>
+			</ol>
+			<h3><a href="https://orcid.org/0000-0002-5275-335X" target="_blank">ORCID</a></h3>
+			<h3><a href="https://dblp.org/search?q=Takuro+Shiraya" target="_blank">DBLP</a></h3>
+			<br>
+		</section>
+	</div>
 </body>
+
 </html>
